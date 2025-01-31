@@ -6,9 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Permite conexões externas
 
-# 🔑
-OPENAI_API_KEY = "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"
-
+dsd
 @app.route('/')
 def home():
     return "Webhook do ChatGPT rodando com sucesso!"
